@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+  <style>
+    .front {
+
+      background-image: url(pics/pic23.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      filter: brightness(100%);
+      /* background-size: cover; */
+      color: rgb(255, 255, 255);
+      overflow: hidden;
+      min-height: 60vh;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      margin: 0px;
+      padding: 0%;
+    }
+
+    .topnav {
+      display: flex;
+      justify-content: center;
+      background-color: rgb(51, 51, 51);
+      /* overflow: hidden;  */
+    }
+
+
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color: rgb(242, 242, 242);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: pink;
+      color: white;
+    }
+
+    #one {
+      font-size: 1cm;
+    }
+
+    #two {
+      font-size: 2cm;
+    }
+
+    .days {
+      display: flex;
+    }
+
+    .dayss {
+
+
+      padding-right: 60px;
+      padding-left: 60px;
+      display: inline;
+      width: 130px;
+      background-color: pink;
+      color: black;
+      border-radius: 25px;
+      margin: 30px;
+
+    }
+
+    .dayss a {
+      text-decoration: none;
+
+    }
+
+    .table {
+      background-image: url(pics/pic14.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      filter: brightness(100%);
+      background-size: 100% 100%;
+      color: rgb(255, 255, 255);
+      overflow: hidden;
+      min-height: 60vh;
+    }
+
+    tr {
+      margin: 150px;
+    }
+
+    td {
+      font-size: 2em;
+      padding: 20px;
+      border: #333 12px solid;
+      border-radius: 20px;
+      align-items: center;
+      justify-content: center;
+      color: pink;
+      background-color: #333;
+
+    }
+
+    td a {
+      color: white;
+      text-decoration: none;
+    }
+
+    td:hover {
+      border: pink 2px solid;
+      color: #0a192f;
+      background-color: pink
+    }
+
+    .content {
+      margin: 40px;
+
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      /* font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    }
+
+    section {
+      padding: 100px 200px;
+    }
+
+    header {
+      width: 100%;
+      z-index: 999;
+      display: flex;
+      position: static;
+      padding: 15px 20px;
+      align-items: center;
+      padding: 15px 200px;
+      transition: 0.5s ease;
+      background-color: black;
+      justify-content: space-between;
+    }
+
+    header .brand {
+      color: #fff;
+      font-size: 1.5em;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    header .navigation {
+      position: relative;
+      text-decoration: none;
+    }
+
+    header .navigation .navigation-items a {
+      position: relative;
+      color: #fff;
+      font-size: 1em;
+      font-weight: 500;
+      text-decoration: none;
+      margin-left: 30px;
+      transition: 0.3s ease;
+    }
+
+    header .navigation .navigation-items a:before {
+      content: '';
+      position: absolute;
+      background: #fff;
+      width: 0;
+      height: 3px;
+      bottom: 0;
+      left: 0;
+      transition: 0.3s ease;
+    }
+  </style>
+</head>
+
+<body>
+  <header><a href="#" class="brand">Fitness freak</a>
+    <div class="menu-btn"></div>
+    <div class="navigation">
+      <div class="navigation-items">
+        <a href="homepage.html">Home</a>
+        <a href="about us.html">About</a>
+        <a href="our services.html">Services</a>
+        <a href="contact us1.html">Contact us</a>
+
+      </div>
+    </div>
+  </header>
+  <div class="front">
+    <div class="content">
+      <h1 style="font-size: 56px;">SPLITS<br> <span>TRAINING</span></h1>
+      <p style="font-size: 40px;">
+        life Is Like A Gymnastic,
+        <br>&nbsp;&nbsp;...Its better to have Flexible
+      </p>
+    </div>
+  </div>
+  <div class="topnav">
+    <a href="beginner.html" id="one">Beginner</a>
+    <a href="intermediate.html" id="one">Intermediate</a>
+    <a class="active" href="advanced.html" id="one">Advanced</a>
+  </div>
+  <center>
+    <div class="table">
+      <table style="width: 95%; text-align: center;margin: 15px;padding: 30px;" cellspacing="45px">
+        <tr>
+          <td><a href="Aday1.html"> DAY 1</a></td>
+          <td><a href="Aday2.html"> DAY 2</a></td>
+          <td><a href="Aday3.html"> DAY 3</a></td>
+        </tr>
+        <tr>
+          <td><a href="Aday4.html"> DAY 4</a></td>
+          <td><a href="Aday5.html"> DAY 5</a></td>
+          <td><a href="Aday6.html"> DAY 6</a></td>
+        </tr>
+        <tr>
+          <td><a href="Aday7.html"> DAY 7</a></td>
+          <td><a href="Aday8.html"> DAY 8</a></td>
+          <td><a href="Aday9.html"> DAY 9</a></td>
+        </tr>
+        <tr>
+          <td><a href="Aday10.html"> DAY 10</a></td>
+          <td><a href="Aday11.html"> DAY 11</a></td>
+          <td><a href="Aday12.html"> DAY 12</a></td>
+        </tr>
+        <tr>
+          <td><a href="Aday13.html"> DAY 13</a></td>
+          <td><a href="Aday14.html"> DAY 14</a></td>
+          <td><a href="Aday15.html"> DAY 15</a></td>
+        </tr>
+        <tr>
+          <td><a href="Aday16.html"> DAY 16</a></td>
+          <td><a href="Aday17.html"> DAY 17</a></td>
+          <td><a href="Aday18.html"> DAY 18</a></td>
+        </tr>
+        <tr>
+          <td><a href="Aday19.html"> DAY 19</a></td>
+          <td><a href="Aday20.html"> DAY 20</a></td>
+          <td><a href="Aday21.html"> DAY 21</a></td>
+        </tr>
+        <tr>
+          <td><a href="Aday22.html"> DAY 22</a></td>
+          <td><a href="Aday23.html"> DAY 23</a></td>
+          <td><a href="Aday24.html"> DAY 24</a></td>
+        </tr>
+        <tr>
+          <td><a href="Aday25.html"> DAY 25</a></td>
+          <td><a href="Aday26.html"> DAY 26</a></td>
+          <td><a href="Aday27.html"> DAY 27</a></td>
+        </tr>
+        <tr>
+          <td><a href="Aday28.html"> DAY 28</a></td>
+          <td><a href="Aday29.html"> DAY 29</a></td>
+          <td><a href="Aday30.html"> DAY 30</a></td>
+        </tr>
+      </table>
+    </div>
+  </center>
+</body>
+
+</html>
